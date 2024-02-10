@@ -4,7 +4,7 @@ There are a few ways to project a 5-cell into 3d space. In a vertex-first projec
 
 ![Projections](./pic/projections.png) ![VertexFirst](./pic/vertexfirst.png) ![CellFirst](./pic/cellfirst.png)
 
-(pictures: projections [Source](https://www.researchgate.net/figure/2D-visualizations-of-3D-perspective-projections-of-the-first-iteration-of-a_fig1_280734511), vertex first pyraminx, cell first pyraminx [Source](https://rayzz.me/articles/hypercubing/4-simplex-solution.html)
+(pictures: projections [Source](https://www.researchgate.net/figure/2D-visualizations-of-3D-perspective-projections-of-the-first-iteration-of-a_fig1_280734511), vertex first pyraminx, cell first pyraminx [Source](https://rayzz.me/articles/hypercubing/4-simplex-solution.html))
 
 ## The Pieces
 
