@@ -1,7 +1,7 @@
 # Dominik's 4D Pyraminx
 
 
-![Dominik's 4D Pyraminx](https://jimdo-storage.freetls.fastly.net/image/439487778/8e46e773-ba4b-48d5-8bcd-5c7936c8dfd4.jpg?format=pjpg&quality=80,90&auto=webp&disable=upscale&width=1920&height=1437)
+![Dominik's 4D Pyraminx](./pic/4dp_01.jpg)
 
     
 
