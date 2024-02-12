@@ -1,7 +1,6 @@
 ---
 title: Dominik's 4D Pyraminx
 
- [here](How-does-it-work.md)
 ---
 
 # Dominik's 4D Pyraminx
