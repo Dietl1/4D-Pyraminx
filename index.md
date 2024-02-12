@@ -1,3 +1,9 @@
+---
+title: My Page Title
+nav: index page1 page2
+toc: true
+---
+
 # Dominik's 4D Pyraminx
 
 
