@@ -1,6 +1,6 @@
 ---
-title: My Page Title
-nav: index page1 page2
+title: How does it work?
+nav: index How-does-it-work README
 toc: true
 ---
 
