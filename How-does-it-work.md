@@ -1,4 +1,16 @@
-# How does it work?
+# Table of contents
+1. [The Pieces](#paragraph0)
+2. [Chirality](#paragraph1)
+3. [Moves](#paragraph2)
+4. [Legal States](#paragraph3)
+5. [Gyro](#paragraph4)
+6. [Comparison with MC4D](#paragraph5)
+7. [Example Solve](#paragraph6)
+8. [Notes for a Solve](#paragraph7)
+
+
+
+# How does it work? 
 
 There are a few ways to project a 5-cell into 3d space. In a vertex-first projection the "hidden" cell is on the "outside" of the others while in a cell-first projection it is on the "inside". My design for the 4D pyraminx represents the latter way. In a solved state we have 4 colors on the outside and one on the inside of the puzzle.
 
@@ -6,7 +18,7 @@ There are a few ways to project a 5-cell into 3d space. In a vertex-first projec
 
 (pictures: projections [Source](https://www.researchgate.net/figure/2D-visualizations-of-3D-perspective-projections-of-the-first-iteration-of-a_fig1_280734511), vertex first pyraminx, cell first pyraminx [Source](https://rayzz.me/articles/hypercubing/4-simplex-solution.html))
 
-## The Pieces
+## The Pieces <a name="paragraph0"></a>
 
 
 There are ten tetrahedron-shaped 3-colored edge pieces where the fourth face is split into three colors.
@@ -21,12 +33,12 @@ The five 4-colored trivial tips can also be represented by tetrahedrons but with
 
 ![TrivialTips](https://jimdo-storage.freetls.fastly.net/image/439487834/7efb5dd9-ad7c-4c0e-a86e-c3fd4c8b2736.gif?quality=80,90&auto=webp&disable=upscale&width=600&height=600)
 
-## Chirality
+## Chirality <a name="paragraph1"></a>
 
 
 For the pieces to fit together in the correct color arrangement they need to have the same chirality. There is a left-handed and a right-handed version of the pieces and the centers and trivial tips need to have the same order of colors. Since the edges are allowed to be in more states the chirality doesn't matter as much but if the chiralities don't line up one color will be "favored" in a certain orientation.
 
-## Moves:
+## Moves: <a name="paragraph2"></a>
 
 There are some legal moves that don't represent a movement in the 4D puzzle.
 
@@ -63,7 +75,7 @@ After the rotation you have can move the edges back.
 
 This is not necessary for a solve, though, since you have access to all the edge pieces through the 16 other moves.
 
-## Legal States
+## Legal States <a name="paragraph3"></a>
 
 
 To keep the puzzle in a legal state sometimes after certain rotations we need to make edge reorientations. When performing a non-standard slice move an edge that isn't in a correct state regarding the center that has rotated can after a turn show a split face.
@@ -90,7 +102,7 @@ As a rule you can now rotate the edge in the "down" direction in regards to the 
 
 This way we can simulate a 3-cycle of the faces A, B and C with the 4-sided shape of the tetrahedron.
 
-## Gyro
+## Gyro <a name="paragraph4"></a>
 
 
 While it isn't necessary for a solve it is possible to reorient the whole puzzle by what's usually called a gyro. There might be better ways to do it but here is one way that can be done in four steps.
@@ -130,7 +142,7 @@ That’s all there is to the gyro and here we have all in one movement.
 ...
 
 
-## Comparison of Moves with MC4D
+## Comparison of Moves with MC4D <a name="paragraph5"></a>
 
 | Dominik's Pyraminx | MagicCube 4D |
 | ---------------------------- | ------------------------------------ |
@@ -145,12 +157,12 @@ That’s all there is to the gyro and here we have all in one movement.
 | ![Gyro](https://jimdo-storage.freetls.fastly.net/image/439487856/af455204-87d9-40cd-80d5-515cd86fda4e.gif?quality=80,90&auto=webp&disable=upscale&width=600&height=600) | ![MC4DGyro](https://jimdo-storage.freetls.fastly.net/image/439487319/d3521c35-3cb6-4172-82d8-983cc02857b1.gif?quality=80,90&auto=webp&disable=upscale&width=237&height=286) |
 
 
-## Example solve
+## Example solve <a name="paragraph6"></a>
 
 
 Here is a link to a video of an example scamble and solve of the puzzle: [Link](https://youtu.be/ouciU8p1Wto?si=wD7nbHjl6S_ivAWQ).
 
-## Notes for a solve
+## Notes for a solve <a name="paragraph7"></a>
 
 
 The 4D pyraminx can end up with a single edge flipped incorrectly unlike the 3D pyraminx. This state can be solved with an algorithm that flips two edges, the right slice move and an additional two edges flip. But if a piece was moved in a wrong way accidentally it can also end up in a state that’s not solvable like this. The reason for this is that there are three states that flipping an edge moves between: (a) solved state, (b) one edge correct and the other two flipped and (c) all edges incorrect.
