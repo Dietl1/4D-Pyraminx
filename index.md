@@ -1,7 +1,8 @@
 ---
 title: Dominik's 4D Pyraminx
-nav: index How-does-it-work README
-toc: true
+
+[How does it work?](How-does-it-work.md)
+
 ---
 
 # Dominik's 4D Pyraminx
