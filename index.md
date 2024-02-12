@@ -1,5 +1,5 @@
 ---
-title: How does it work?
+title: Dominik's 4D Pyraminx
 nav: index How-does-it-work README
 toc: true
 ---
