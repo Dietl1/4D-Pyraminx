@@ -1,4 +1,6 @@
-# Table of contents
+
+# How does it work? 
+
 1. [The Pieces](#paragraph0)
 2. [Chirality](#paragraph1)
 3. [Moves](#paragraph2)
@@ -8,9 +10,6 @@
 7. [Example Solve](#paragraph6)
 8. [Notes for a Solve](#paragraph7)
 
-
-
-# How does it work? 
 
 There are a few ways to project a 5-cell into 3d space. In a vertex-first projection the "hidden" cell is on the "outside" of the others while in a cell-first projection it is on the "inside". My design for the 4D pyraminx represents the latter way. In a solved state we have 4 colors on the outside and one on the inside of the puzzle.
 
