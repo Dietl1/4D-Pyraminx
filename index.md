@@ -19,6 +19,7 @@ title: Dominik's 4D Pyraminx
     **Magnets:** 60 (better version needs 180)
 
     **Completed:** 2023 Dec 28
+<a name="Top"></a>
 
 1. [History](#paragraph9)
 2. [How does it work?](#paragraph8)
@@ -35,6 +36,7 @@ title: Dominik's 4D Pyraminx
 
 Based on some ideas for the 4D pyraminx Dominik first created a paper model in mid December. After some suggestions from Melinda Green he created the current prototype with magnets which was the first functioning version of this design.
 
+[Back to the top](#Top)
 
 # How does it work? <a name="paragraph8"></a>
 
@@ -43,6 +45,8 @@ There are a few ways to project a 5-cell into 3d space. In a vertex-first projec
 ![Projections](./pic/projections.png) ![VertexFirst](./pic/vertexfirst.png) ![CellFirst](./pic/cellfirst.png)
 
 (pictures: projections [Source](https://www.researchgate.net/figure/2D-visualizations-of-3D-perspective-projections-of-the-first-iteration-of-a_fig1_280734511), vertex first pyraminx, cell first pyraminx [Source](https://rayzz.me/articles/hypercubing/4-simplex-solution.html))
+
+[Back to the top](#Top)
 
 ## The Pieces <a name="paragraph0"></a>
 
@@ -59,10 +63,14 @@ The five 4-colored trivial tips can also be represented by tetrahedrons but with
 
 ![TrivialTips](https://jimdo-storage.freetls.fastly.net/image/439487834/7efb5dd9-ad7c-4c0e-a86e-c3fd4c8b2736.gif?quality=80,90&auto=webp&disable=upscale&width=600&height=600)
 
+[Back to the top](#Top)
+
 ## Chirality <a name="paragraph1"></a>
 
 
 For the pieces to fit together in the correct color arrangement they need to have the same chirality. There is a left-handed and a right-handed version of the pieces and the centers and trivial tips need to have the same order of colors. Since the edges are allowed to be in more states the chirality doesn't matter as much but if the chiralities don't line up one color will be "favored" in a certain orientation.
+
+[Back to the top](#Top)
 
 ## Moves: <a name="paragraph2"></a>
 
@@ -101,6 +109,8 @@ After the rotation you have can move the edges back.
 
 This is not necessary for a solve, though, since you have access to all the edge pieces through the 16 other moves.
 
+[Back to the top](#Top)
+
 ## Legal States <a name="paragraph3"></a>
 
 
@@ -127,6 +137,8 @@ As a rule you can now rotate the edge in the "down" direction in regards to the 
 ![EdgeRorientation](https://jimdo-storage.freetls.fastly.net/image/439487465/0642de7c-3955-4598-a45e-9772b80318c6.gif?quality=80,90&auto=webp&disable=upscale&width=600&height=600) ![UpDown](https://jimdo-storage.freetls.fastly.net/image/439487320/f9bf0657-d83d-4a43-8312-ac7c9f9c7118.jpg?format=pjpg&quality=80,90&auto=webp&disable=upscale&width=300&height=300)
 
 This way we can simulate a 3-cycle of the faces A, B and C with the 4-sided shape of the tetrahedron.
+
+[Back to the top](#Top)
 
 ## Gyro <a name="paragraph4"></a>
 
@@ -165,8 +177,7 @@ That’s all there is to the gyro and here we have all in one movement.
 
 ![Gyro](https://jimdo-storage.freetls.fastly.net/image/439487856/af455204-87d9-40cd-80d5-515cd86fda4e.gif?quality=80,90&auto=webp&disable=upscale&width=600&height=600)
 
-...
-
+[Back to the top](#Top)
 
 ## Comparison of Moves with MC4D <a name="paragraph5"></a>
 
@@ -182,11 +193,14 @@ That’s all there is to the gyro and here we have all in one movement.
 | ![Move8](https://jimdo-storage.freetls.fastly.net/image/439487496/fa790eab-d3c3-415e-ad81-ff761e4a93b3.gif?quality=80,90&auto=webp&disable=upscale&width=600&height=600) | ![MC4DMove8](https://jimdo-storage.freetls.fastly.net/image/439485426/c1fe2a21-b798-43e7-b52f-d1f344975bc2.gif?quality=80,90&auto=webp&disable=upscale&width=234&height=286) |
 | ![Gyro](https://jimdo-storage.freetls.fastly.net/image/439487856/af455204-87d9-40cd-80d5-515cd86fda4e.gif?quality=80,90&auto=webp&disable=upscale&width=600&height=600) | ![MC4DGyro](https://jimdo-storage.freetls.fastly.net/image/439487319/d3521c35-3cb6-4172-82d8-983cc02857b1.gif?quality=80,90&auto=webp&disable=upscale&width=237&height=286) |
 
+[Back to the top](#Top)
 
 ## Example solve <a name="paragraph6"></a>
 
 
 Here is a link to a video of an example scamble and solve of the puzzle: [Link](https://youtu.be/ouciU8p1Wto?si=wD7nbHjl6S_ivAWQ).
+
+[Back to the top](#Top)
 
 ## Notes for a solve <a name="paragraph7"></a>
 
@@ -197,3 +211,4 @@ Going from (c) to (a) requires two flips so the method above can flip edge A fro
 
 ![Tree](https://jimdo-storage.freetls.fastly.net/image/439487323/a5996e11-1851-4e8d-ab62-72680c36dc92.jpg?format=pjpg&quality=80,90&auto=webp&disable=upscale&width=900&height=600)
 
+[Back to the top](#Top)
