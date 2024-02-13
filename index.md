@@ -20,13 +20,6 @@ title: Dominik's 4D Pyraminx
 
     **Completed:** 2023 Dec 28
 
-## History <a name="paragraph9"></a>
-
-Based on some ideas for the 4D pyraminx Dominik first created a paper model in mid December. After some suggestions from Melinda Green he created the current prototype with magnets which was the first functioning version of this design.
-
-
-# How does it work? <a name="paragraph8"></a>
-
 1. [History](#paragraph9)
 2. [How does it work?](#paragraph8)
 3. [The Pieces](#paragraph0)
@@ -38,6 +31,12 @@ Based on some ideas for the 4D pyraminx Dominik first created a paper model in m
 9. [Example Solve](#paragraph6)
 10. [Notes for a Solve](#paragraph7)
 
+## History <a name="paragraph9"></a>
+
+Based on some ideas for the 4D pyraminx Dominik first created a paper model in mid December. After some suggestions from Melinda Green he created the current prototype with magnets which was the first functioning version of this design.
+
+
+# How does it work? <a name="paragraph8"></a>
 
 There are a few ways to project a 5-cell into 3d space. In a vertex-first projection the "hidden" cell is on the "outside" of the others while in a cell-first projection it is on the "inside". My design for the 4D pyraminx represents the latter way. In a solved state we have 4 colors on the outside and one on the inside of the puzzle.
 
